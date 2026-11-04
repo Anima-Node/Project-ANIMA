@@ -1,4 +1,4 @@
-markdown
+
 # Project ANIMA: Core Hardware Specifications v1.0
 ### Open-Source Tangible Social Interface (TSI) & Local AI Handshake Proxy
 
@@ -70,6 +70,7 @@ The underside of the chassis features six flush, gold-plated copper contact pads
 * **Zero-Cloud Architecture:** Data is generated via an offline companion app, compiled into a text-based vector matrix, and transferred entirely over local BLE or USB-C.
 * **Vector Dot-Product Matching:** Math is computed natively on the ESP32-C3 by comparing preference arrays. No raw data points are ever broadcast during an IR bump—only the final compatibility score is exchanged.
 * **AI Manifest Compatibility:** The finalized 200+ point local vector matrix doubles as a standardized "Human Manifest File" capable of onboarding local AI models and consumer robotics via a secure, physical NFC/Bluetooth handshake.
+* **[ANIMA Venue Hub System](HUB_SPEC.md):** Learn how Project ANIMA scales into physical third spaces via offline thermal printing hubs, mass-proximity handshakes, and game-theory anti-exploit protocols.
 
 ---
 
