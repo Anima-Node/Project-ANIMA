@@ -8,7 +8,7 @@ This repository contains the physical dimensions, internal layout, and electrica
 
 * **Hardware License:** CERN Open Hardware Licence (CERN-OHL-W)
 * **Firmware/Software License:** MIT
-* **Project Discord Hub:** [Insert Link After Creating]
+* **Project Discord Hub:** https://discord.gg/WgPyJf3bv
 * **Development Blog:** [Insert Hackaday.io Link]
 
 ---
