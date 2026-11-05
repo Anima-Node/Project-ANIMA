@@ -7,9 +7,9 @@ This repository serves as the central authority for the physical dimensions, ele
 
 * **Hardware License:** CERN Open Hardware Licence (CERN-OHL-W)
 * **Firmware/Software License:** MIT
-* **Project GitHub Coordinate:** `BrokeBespoke-Root/Project-ANIMA`
+* **Project GitHub Coordinate:** `Anima_Node/Project-ANIMA`
 * **Official Discord Hub:** https://discord.gg/WgPyJf3bv
-* **Development Repository Blog:** `https://ko-fi.com/brokebespokeroot`
+* **Development Repository Blog:** `https://ko-fi.com/AnimaNode`
 
 ---
 
