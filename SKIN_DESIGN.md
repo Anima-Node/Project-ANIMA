@@ -39,6 +39,37 @@ The Base Core reads an analog voltage profile on Pad 3 (`SKIN_ID`) to dynamicall
 | **Skin 04** | 10.0 kΩ (±1%) | ~ 1.95 V - 2.05 V | `SKIN_PROFILE_NIMBUS` |
 | **Skin 05** | 22.0 kΩ (±1%) | ~ 2.70 V - 2.85 V | `SKIN_PROFILE_SUB_STATION` |
 
+
+### 1. The "Burl & Brass" (Steampunk Botanist ID | ID: 1.0 kΩ)
+*   **Material Aesthetic:** Reclaimed walnut timber shell accented with raw knurled brass structural gears and an external glass-encased vintage vacuum tube assembly.
+*   **Peripheral Actuators:** Driven by a miniature internal 5V micro-stepper motor linked to the gear train and a high-intensity warm orange filament LED running up the center of the vacuum tube.
+*   **Low Match State:** The filament LED flashes fitfully at long, irregular intervals; the stepper motor remains completely unpowered to keep the gears locked.
+*   **High Match State:** Activates an amber strobe light sequence inside the vacuum tube while the micro-stepper motor drives the gear array into a steady rotation, accompanied by a looping mechanical clockwork arpeggio generated via the `AUDIO_PWM` line.
+
+### 2. The "Mud-Frog" (Wetland Organic ID | ID: 2.2 kΩ)
+*   **Material Aesthetic:** Flexible, squishy matte-green vulcanised silicone housing with a rough texture, featuring integrated low-resolution monochrome pixel-art frog design elements.
+*   **Peripheral Actuators:** Houses a high-mass Eccentric Rotating Mass (ERM) haptic vibration motor alongside a rugged, low-frequency 20mm resonant piezoelectric buzzer element.
+*   **Low Match State:** The buzzer emits a slow, deep acoustic croaking pattern while the ERM motor delivers a single shuddering vibration pulse every 6 seconds.
+*   **High Match State:** The ERM motor switches to a high-frequency skittering vibration pattern, accompanied by a rapid, high-pitched digital chirp audio sequence looping continuously over the speaker rail.
+
+### 3. The "Grave-Digga" (Gothic Skeptic ID | ID: 4.7 kΩ)
+*   **Material Aesthetic:** Injection-moulded charcoal-grey polymer skull with deep, hollow mechanical eye sockets and a textured bone-ash matte surface finish.
+*   **Peripheral Actuators:** Features two pinpoint crimson micro-LED elements aligned deep within the eye cavities and a bass-heavy dual-chamber acoustic piezo buzzer.
+*   **Low Match State:** The crimson eye LEDs remain locked in a static, low-intensity state while the bass buzzer generates a continuous, low-frequency mechanical drone.
+*   **High Match State:** The crimson LEDs are overridden by a rapid-fire white strobe light pulsing through the skull casing, while the buzzer launches into an upbeat, syncopated retro game victory melody.
+
+### 4. The "Nimbus" (Fluffy Optimist ID | ID: 10.0 kΩ)
+*   **Material Aesthetic:** Ultra-lightweight, needle-felted white merino wool cloud casing wrapped securely around an internal semi-rigid light-diffusing acrylic frame.
+*   **Peripheral Actuators:** Contains an integrated flexible strip of 6 addressable RGB NeoPixels (`LED_DATA`) and a specialized bone-conduction flat audio transducer.
+*   **Low Match State:** The internal NeoPixels shift into a dim, static deep purple hue while the transducer produces a soft, irregular digital static rumble.
+*   **High Match State:** Loops a bright pastel rainbow cascade pattern moving across the NeoPixel array, paired with a sweeping, polyphonic chiptune chord sequence transmitted directly through the shell via the audio transducer.
+
+### 5. The "Sub-Station" (Industrial Off-Grid ID | ID: 22.0 kΩ)
+*   **Material Aesthetic:** High-impact, thick yellow industrial ABS plastic casing stencilled with high-contrast black hazard striping and textured non-slip grip steps.
+*   **Peripheral Actuators:** Built with a precise Linear Resonant Actuator (LRA) haptic pulse motor and a front-facing, 8-segment green/red LED bar-graph display component.
+*   **Low Match State:** The LED bar-graph zeroes out completely with only the single bottom red element blinking, while the haptic drive remains unpowered.
+*   **High Match State:** Drives the LED bar-graph directly to maximum green illumination while the LRA motor transmits a heavy, structural rhythmic hum through the entire casing to simulate industrial machinery under load.
+
 ---
 
 ## 🎨 Module 3: R&D Concept Lab — Advanced Peripheral Expansion
